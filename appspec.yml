@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/CodeDeploye1st
+    destination: /home/ubuntu/CodeDeploye1st
 hooks:
   ApplicationStart:
     - location: start_server.sh
