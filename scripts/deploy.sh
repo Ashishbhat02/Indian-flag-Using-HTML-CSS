@@ -8,7 +8,7 @@ sudo mkdir -p temp
 cp temp/Indian_Flag.html /var/www/myproject/templates/
 
 # Remove the temp folder after copying
-# rm -rf temp
+sudo rm -rf temp
 
 # Restart Apache to apply changes
 sudo systemctl restart apache2
