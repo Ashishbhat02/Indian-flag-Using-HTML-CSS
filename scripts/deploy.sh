@@ -5,7 +5,7 @@ cd /var/www/myproject/templates/
 mkdir -p tem
 
 # Copy the Indian_Flag.html file from the temp folder to /var/www/html/
-cp temp/Indian_Flag.html /var/www/myproject/templates/
+cp tem/Indian_Flag.html /var/www/myproject/templates/
 
 # Remove the temp folder after copying
 #rm -rf tem
