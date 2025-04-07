@@ -3,9 +3,12 @@ cd /var/www/django/templates
 # rm -rf index.html
 mkdir -p temp
 
-# Copy the Indian_Flag.html file from the temp folder to /var/www/html/
-cp temp/Indian_Flag.html /var/www/django/templates/
+cd temp
 
+# Copy the Indian_Flag.html file from the temp folder to /var/www/html/
+cp Indian_Flag.html /var/www/django/templates/
+
+cd ..
 # Remove the temp folder after copying
 rm -rf temp
 
