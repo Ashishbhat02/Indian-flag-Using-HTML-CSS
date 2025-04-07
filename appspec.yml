@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/django/templates/temp
+    destination: /var/www/django/templates
 hooks:
   AfterInstall:
     - location: scripts/deploy.sh
